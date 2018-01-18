@@ -1,16 +1,18 @@
 
-float theta;   
+var theta;
+var h;
 
-void setup() {
-  size(800, 250);
+function setup() {
+  var canvasSize=createCanvas(800, 250);
+  canvasSize.parent('tree');
 }
 
-void draw() {
+function draw() {
   background(244, 143, 19);
   frameRate(30);
   stroke(17, 155, 148);
   // Let's pick an angle 0 to 90 degrees based on the mouse position
-  float a = (mouseX / (float) width) * 90f;
+var a = (mouseX / width) * 90;
   // Convert it to radians
   theta = radians(a);
   // Start the tree from the bottom of the screen
@@ -24,26 +26,26 @@ void draw() {
 
 }
 
-void branch(float h) {
+function branch(h) {
   // Each branch will be 2/3rds the size of the previous one
   h *= 0.66;
-  
+
   // All recursive functions must have an exit condition!!!!
   // Here, ours is when the length of the branch is 2 pixels or less
   if (h > 2) {
-    pushMatrix();    // Save the current state of transformation (i.e. where are we now)
+    push();    // Save the current state of transformation (i.e. where are we now)
     rotate(theta);   // Rotate by theta
     line(0, 0, 0, -h);  // Draw the branch
     translate(0, -h); // Move to the end of the branch
     branch(h);       // Ok, now call myself to draw two new branches!!
-    popMatrix();     // Whenever we get back here, we "pop" in order to restore the previous matrix state
-    
+    pop();     // Whenever we get back here, we "pop" in order to restore the previous  state
+
     // Repeat the same thing, only branch off to the "left" this time!
-    pushMatrix();
+    push();
     rotate(-theta);
     line(0, 0, 0, -h);
     translate(0, -h);
     branch(h);
-    popMatrix();
+    pop();
   }
 }
