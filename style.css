@@ -56,7 +56,6 @@ ol li {
 
 li {
   width: 380px;
-  color: #fcfcfc;
 }
 
 .column {
@@ -67,6 +66,7 @@ li {
 .col-4, .col-6 {
   text-align: center;
   width: 50%;
+  color: #fcfcfc;
 }
 
 .row:after {
