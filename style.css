@@ -33,11 +33,6 @@ body a:hover {
   color: #079696;
 }
 
-.validation img {
-  background-position: center;
-  background-size: 100%;
-}
-
 h1 {
   color: #fcfcfc;
   font-family: futura;
@@ -55,6 +50,7 @@ h2 {
   padding-top: 25px;
   padding-bottom: 15px;
   margin-left: 20px;
+  margin-right: 20px;
   width: 825px;
   margin: auto;
 }
