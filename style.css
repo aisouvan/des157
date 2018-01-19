@@ -7,7 +7,7 @@
   padding: 0;
 }
 
-.container {
+.container, img {
   max-width: 820px;
 }
 
@@ -48,6 +48,11 @@ h2 {
   width: 825px;
   margin: auto;
 }
+p{
+  font-family: futura;
+  color: #fcfcfc;
+}
+
 
 ol li {
   color: #fcfcfc;
