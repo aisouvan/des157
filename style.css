@@ -20,6 +20,7 @@ header {
 
 img{
   padding-top: 18px;
+  max-width: 33%;
 }
 
 body {
@@ -44,6 +45,7 @@ h2 {
   color: #fcfcfc;
   font-family: futura;
   padding: 15px;
+  font-size: 20px;
 }
 
 .container {
@@ -59,7 +61,7 @@ h2 {
 p{
   font-family: futura;
   color: #fcfcfc;
-  font-size: 18px;
+  font-size: 15px;
   line-height: 25px;
 }
 
@@ -70,6 +72,7 @@ ol li {
 
 li {
   width: 380px;
+  padding: 5px;
 }
 
 .column {
@@ -99,16 +102,23 @@ a {
 }
 
 footer a {
-  color: #424444;
+  color: #fcfcfc;
   text-align: center;
   text-decoration: none;
   font-family: futura;
 }
 
 footer a:hover {
-  color: #fcfcfc;
+  color: #424444;
 }
 
 .footer {
   padding-top: 35px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  color: #fcfcfc;
+  text-align: center;
 }
