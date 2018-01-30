@@ -1,12 +1,9 @@
 console.log('reading');
 
-//capture the submit event
-  document.f.onsubmit = processForm;
+document.f.onsubmit = processForm;
 
-  //define process function
-  function processForm() {
+function processForm() {
 
-    //store form fields in variables
     var jobTitle = document.f.jobTitle.value;
     var workField = document.f.workField.value;
     var season = document.f.season.value;
@@ -24,23 +21,33 @@ console.log('reading');
     var famousCo = document.f.famousCo.value;
     var verb = document.f.verb.value;
     var yourName = document.f.yourName.value;
-    var myMsg=document.getElementById("myMsg");
+    var myMsg = document.getElementById("myMsg");
 
 
-}
+    myMsg.innerHTML =
+        "Dear " + jobTitle +
+        ", " + "<br>" +
+        " I am very interested in the" + workField +
+        "Department during the" + season +
+        "Quarter.I am a" + gradeLevel +
+        "at the University of" + state +
+        "," + city +
+        ", pursuing a bachelor’s degree in" + major +
+        "with a minor in" + major +
+        "." +
+        "My research experience has" + adj +
+        "my interest in the way that" + noun +
+        "is delivered through" + nounOne +
+        "and" + nounTwo + "." + //need a +
+        "I believe in the mission of" + company +
+        "and would be excited to be an intern with your organization. </p>" +
+        "<br>" +
+        "I am confident that my experiences, skills and strong interests in the goals of"
+        + famousCo +
+        "have prepared me to be a strong intern for your program. I have attached my    resume and look forward to discussing my qualifications with you. Thank you for your time and consideration." + //probably need a <br> or two before the Sincerely
+        "<br>" +
+        "Sincerely," +
+        yourName //no need for one more + unless you add something after!
 
-myMsg.innerHTML=
-"Dear" "+ jobTitle + ","
-" I am very interested in the" + workField + "Department during the" + season + "Quarter.I am a" + gradeLevel + "at the University of" + state+ "," + city + ", pursuing a bachelor’s degree in" + major + "with a minor in" + major +. "My research experience has" + adj + "my interest in the way that" + noun + "is delivered through" + nounOne + "and" + nounTwo +. "I believe in the mission of" + company + "and would be excited to be an intern with your organization."
-<br>
-"I am" + adjOne + "that my experiences, skills and strong interests in the goals of" + famousCo + "have" + verb + " me to be a strong intern for your program. I have attached my resume and look forward to discussing my qualifications with you. Thank you for your time and consideration.""
-"Sincerely,
-+ yourName + "
-
-"Hi, " + userName + "!<br>You love the color <em>" + userColor + "</em>!  Have a great day!"
-     //prevent page from reloading
     return false;
-
-  }
-
-// challenge: add a function to clear the myMsg content when the user clicks submit
+};//need a ;
