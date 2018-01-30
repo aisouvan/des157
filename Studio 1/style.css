@@ -48,18 +48,23 @@ table {
 }
 
 figure{
-	float:right;
-  width: 30%;
-  text-align: center;
-  font-style: italic;
-  font-size: smaller;
-  text-indent: 0;
-  margin: 0.5em;
-  padding: 0.5em;
-}
+		float:right;
+	  width: 50%;
+	  text-align: center;
+	  font-style: italic;
+	  font-size: smaller;
+	  text-indent: 0;
+	  margin: 0.5em;
+	  padding: 0.5em;
+		padding-right: 100px;
+	}
 
 figcaption{
 	font-size: 8px;
+}
+
+div{
+	overlfow: scroll;
 }
 
 h1{
@@ -78,7 +83,7 @@ h2{
   font-size: 35px;
 	padding-top: 15px;
 	padding-bottom: 15px;
-	padding-left: 50px;
+	padding-left: 25px;
 }
 
 body{
@@ -87,30 +92,11 @@ body{
   font-family: futura;
 }
 
-.col-4 {
+.col-4, .col-6, .col-8{
 	float: left;
-	width: 18%;
+	max-width: 25%;
 	padding-left: 25px;
-  line-height: 25px;
-}
-
-.col-6, .col-8{
-  line-height: 25px;
-  float: left;
-	width: 18%;
-}
-
-.col-10{
-  line-height: 25px;
-  float: left;
-}
-
-.text{
-	max-width: 50%;
-	float: right;
-	padding-top: 15px;
-	line-height: 25px;
-	font-size: 18px;
+	line-height: 20px;
 }
 
 footer{

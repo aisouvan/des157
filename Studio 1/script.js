@@ -22,6 +22,7 @@ function processForm() {
     var verb = document.f.verb.value;
     var yourName = document.f.yourName.value;
     var myMsg = document.getElementById("myMsg");
+  }
 
 
     myMsg.innerHTML =
@@ -38,16 +39,14 @@ function processForm() {
         "My research experience has" + adj +
         "my interest in the way that" + noun +
         "is delivered through" + nounOne +
-        "and" + nounTwo + "." + //need a +
+        "and" + nounTwo + "." +
         "I believe in the mission of" + company +
         "and would be excited to be an intern with your organization. </p>" +
         "<br>" +
-        "I am confident that my experiences, skills and strong interests in the goals of"
-        + famousCo +
-        "have prepared me to be a strong intern for your program. I have attached my    resume and look forward to discussing my qualifications with you. Thank you for your time and consideration." + //probably need a <br> or two before the Sincerely
+        "I am confident that my experiences, skills and strong interests in the goals of"         + famousCo +
+        "have prepared me to be a strong intern for your program. I have attached my resume and look forward to discussing my qualifications with you. Thank you for your time and consideration." +
         "<br>" +
         "Sincerely," +
-        yourName //no need for one more + unless you add something after!
-
+        yourName
     return false;
-};//need a ;
+};
