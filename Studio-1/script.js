@@ -22,6 +22,7 @@ function processForm() {
     var verb = document.f.verb.value;
     var yourName = document.f.yourName.value;
     var myMsg = document.getElementById("myMsg");
+
   }
 
 
@@ -47,6 +48,6 @@ function processForm() {
         "have prepared me to be a strong intern for your program. I have attached my resume and look forward to discussing my qualifications with you. Thank you for your time and consideration." +
         "<br>" +
         "Sincerely," +
-        yourName
+        yourName;
     return false;
 };
