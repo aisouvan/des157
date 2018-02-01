@@ -3,47 +3,84 @@
 
 <head>
   <meta charset="UTF-8">
-  <title> Anatta's Portal </title>
-  <link href="reset.css" rel="stylesheet">
+  <title> Cover Letter Mad Lib </title>
   <link href="style.css" rel="stylesheet">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.16/p5.js"></script>
 </head>
 
 <body>
-  <div class="container">
-    <header>
-      <h1>Anatta's DES 157 Portal</h1>
-      <div id="tree"> </div>
-    </header>
+
+  <header>
+    <h1>COVER LETTER <br> MAD LIB</h1>
+    <figure>
+      <img src="keyboard.gif" alt="red" class=red>
+      <figcaption> https://pic.chinesefontdesign.com/uploads/2016/11/chinesefontdesign.com_2016-11-26_18-07-10.gif </figcaption>
+    </figure>
+  </header>
+
+  <h2> Fill it in!</h2>
+
+  <form name="f">
     <div class="row">
-      <section class="column col-6 ">
-        <h2> <u> Studio 0 </u> </h2>
-        <nav>
-          <ol>
-            <li> <a href="Studio-1/index.html"> Studio 1 </a> </li>
-            <li> <a href="#"> </a> </li>
-            <li> <a href="#"> </a> </li>
-          </ol>
-        </nav>
-      </section>
+
       <section class="column col-4">
-        <h2> <u> Projects </u></h2>
-        <nav>
-          <ol>
-            <li> <a href="topic-brainstorm.html"> Topic Brainstorm </a></li>
-            <li> <a href="comparative.html"> Comparitive Research </a> </li>
-            <li> <a href="#"> </a> </li>
-          </ol>
-        </nav>
+        <div><label for="jobTitle">Job Title: </label></div>
+        <div><input type="text" name="jobTitle" required></div>
+        <div><label for="workField">Work Field: </label></div>
+        <div><input type="text" name="workField" required></div>
+        <div><label for="season">Season: </label></div>
+        <div><input type="text" name="season" required></div>
+        <div><label for="gradeLevel">Grade Level: </label></div>
+        <div><input type="text" name="gradeLevel" required> </div>
+        <div><label for="state">State: </label></div>
+        <div><input type="text" name="state" required></div>
+      </section>
+
+      <section class="column col-6">
+        <div><label for="city">City: </label></div>
+        <div><input type="text" name="city" required></div>
+        <div><label for="major">Major: </label></div>
+        <div><input type="text" name="major" required></div>
+        <div><label for="minor">Minor: </label></div>
+        <div><input type="text" name="minor" required></div>
+        <div><label for="adj">Adjective: </label></div>
+        <div><input type="text" name="adj" required></div>
+        <div><label for="noun">Noun: </label></div>
+        <div><input type="text" name="noun" required></div>
+      </section>
+
+      <section class="column col-8">
+        <div><label for="nounOne">Noun: </label></div>
+        <div><input type="text" name="nounOne" required></div>
+        <div><label for="nounTwo">Noun: </label></div>
+        <div><input type="text" name="nounTwo" required></div>
+        <div><label for="company">Famous Company: </label></div>
+        <div><input type="text" name="company" required></div>
+        <div><label for="famousCo">Famous company: </label></div>
+        <div><input type="text" name="famousCo" required></div>
+        <div><label for="yourName">Your Name: </label></div>
+        <div><input type="text" name="yourName" required></div>
+        <br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
       </section>
     </div>
-    <footer class="footer">
-      <a href="mailto:aisouvannarath@ucdavis.edu"> Email Me | </a>
+  </form>
+
+  <div class="myMsg">
+    <section id="results">
+      <p id="myMsg"></p>
+    </section>
+  </div>
+
+  <div class="footer">
+    <footer>
+      <a href="mailto:aisouvannarath@ucdavis.edu"> Contact | </a>
       <a href="https://validator.w3.org/check?uri=referer"> Valid HTML 5 |</a>
       <a href="https://jigsaw.w3.org/css-validator/check/referer"> Valid CSS </a>
     </footer>
   </div>
-  <script src="sketch.js"></script>
+
+  <script src="script.js"></script>
 </body>
 
 </html>
