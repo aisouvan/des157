@@ -1,0 +1,33 @@
+h1 {
+  font-family: futura;
+  color: #444443;
+  font-size: 100px;
+  border: 0px;
+  padding: 40px;
+  font-family: futura;
+  width:50%;
+  float:left;
+}
+body{
+  background-color: black;
+}
+footer {
+  font-family: futura;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 25px;
+  background-color: #efefef;
+  text-align: center;
+  font-size: 25px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #7e7e7f;
+}
+
+footer a:hover {
+  color: #32c9ad;
+}
