@@ -1,31 +1,9 @@
-'use strict'
-
-var capture;
-var button;
-var playing = true;
-
+var vid;
 function setup() {
-  createCanvas(600, 400);
-  capture = createCapture(VIDEO);
-  capture.size(600, 400);
-  capture.hide();
-  button = createButton('play');
-  button.mousePressed(toggleVid);
+  vid = createVideo(['small.mp4', 'small.ogv', 'small.webm'], vidLoad);
 }
 
-function draw() {
-  background(255);
-  image(capture, 0, 0, 600, 400);
-
-
-}
-function toggleVid() {
-  if (playing) {
-    capture.pause();
-    button.html('play');
-  } else {
-    capture.loop();
-    button.html('pause');
-  }
-  playing = !playing;
+// This function is called when the video loads
+function vidLoad() {
+  vid.play();
 }
