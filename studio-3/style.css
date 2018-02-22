@@ -31,20 +31,6 @@ h1 {
   font-size: 30px;
 }
 
-input[type="submit"] {
-  width: 20%;
-  margin: 2%;
-  padding: 12px;
-  border: none; /*remove default*/
-  border-radius: 3px;
-  border-bottom: 4px black solid;
-  font-weight: bold;
-  font-size: 1.5em;
-  background-color: white;
-  color: #7babf7;
-}
-
-
 footer {
   max-width: 500px;
   margin: 50px auto;
