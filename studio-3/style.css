@@ -24,10 +24,11 @@ body{
 
 h1 {
   font-family: futura;
-  color:white;
+  color:#7babf7;
   margin: auto;
   max-width: 500px;
   margin: 50px auto;
+  font-size: 30px;
 }
 
 footer {
