@@ -32,19 +32,16 @@ h1 {
 }
 
 input[type="submit"] {
-  width: auto;
-  font-size: 1.1em;
-  font-family: futura;
+  width: 20%;
+  margin: 2%;
+  padding: 12px;
+  border: none; /*remove default*/
+  border-radius: 3px;
+  border-bottom: 4px black solid;
   font-weight: bold;
-  text-align: center;
-  text-transform: uppercase;
-  margin-top: 20px;
-  padding: 5px;
-  border: 0px;
-  border-radius: 4px;
-  background: white;
-  color: black;
-  position:absolute;
+  font-size: 1.5em;
+  background-color: white;
+  color: #7babf7;
 }
 
 
