@@ -42,3 +42,7 @@ footer {
   padding: 20px;
   line-height: 15px;
 }
+
+footer a{
+  text-decoration: none;
+}
