@@ -5,7 +5,7 @@ html {
 body{
 	background: #7babf7;
   font-family: futura;
-  color:white;
+  color:#7babf7;
 	font-weight: 200;
 	font-size: 20px;
 }
@@ -38,7 +38,7 @@ footer {
   font-family: futura;
   color:white;
   font-weight: 400;
-  font-size: 9px;
+  font-size: 15px;
   padding: 20px;
   line-height: 15px;
 }
