@@ -1,9 +1,13 @@
-var vid;
+var capture;
+
 function setup() {
-  vid = createVideo(['small.mp4', 'small.ogv', 'small.webm'], vidLoad);
+  createCanvas(390, 240);
+  capture = createCapture(VIDEO);
+  capture.size(320, 240);
+  //capture.hide();
 }
 
-// This function is called when the video loads
-function vidLoad() {
-  vid.play();
+function draw() {
+  background(255);
+  image(capture, 0, 0, 320, 240);
 }
