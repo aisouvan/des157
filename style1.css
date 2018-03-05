@@ -1,0 +1,67 @@
+h1 {
+  text-indent: 14px;
+  font-family: Avenir;
+  letter-spacing: 2px;
+  font-size:15px;
+  color: #5a5b5b;
+  background-color: rgba(108, 163, 252, 0.7);
+}
+
+nav a{
+  text-decoration: none;
+  font-family: Avenir;
+  font-size: 18px;
+  color: #fcfcfc;
+  text-shadow: 1px 1px 1px #8e8e8e;
+}
+
+.nav{
+  text-decoration: none;
+  float:right;
+  font-family: Avenir;
+  font-size: 18px;
+  color: #5a5b5b;
+  text-shadow: 1px 1px 1px #8e8e8e;
+  padding: 15px;
+  text-transform: capitalize;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+a:hover{
+  color: #0a4444;
+  text-decoration:underline;
+}
+
+form{
+  font-family: avenir;
+  color:#5a5b5b;
+  padding-bottom: 25px;
+}
+
+footer{
+  clear:both;
+  margin-top: 40px;
+  margin: auto;
+  text-align: center;
+  font-family: Avenir;
+  text-shadow: 1px 1px 1px #8e9191;
+  font-size: 15px;
+}
+
+footer a{
+  text-decoration: none;
+  color: #6ca3fc;
+}
+
+.container{
+    border:10px;
+    padding: 20px;
+    margin: auto;
+    background:rgba(255,255,255,0.7);
+  }
