@@ -62,7 +62,6 @@ p{
   font-family: futura;
   color: #fcfcfc;
   font-size: 15px;
-  line-height: 25px;
 }
 
 ol li {
@@ -72,7 +71,7 @@ ol li {
 
 li {
   padding: 5px;
-  line-height: 20px;
+  line-height: 5px;
 }
 
 
