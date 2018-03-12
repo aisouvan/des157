@@ -45,8 +45,8 @@ form{
   padding-bottom: 25px;
 }
 
-button{
-  width:7in;
+.button{
+  width:2in;
   margin:auto;
   border:0px;
   border-radius:14px;
