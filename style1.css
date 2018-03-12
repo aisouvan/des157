@@ -60,6 +60,7 @@ footer a{
 }
 
 .container{
+    width: 400px;
     border:10px;
     padding: 20px;
     margin: auto;
