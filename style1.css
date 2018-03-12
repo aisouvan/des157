@@ -24,6 +24,7 @@ nav a{
   text-shadow: 1px 1px 1px #8e8e8e;
   padding: 15px;
   text-transform: capitalize;
+  word-spacing: 15px;
 }
 
 .center{
