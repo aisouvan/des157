@@ -9,6 +9,7 @@ h1 {
 
 h2{
   font-family: Avenir;
+  color:#353535;
 }
 
 ol li a{
@@ -73,6 +74,7 @@ form{
 
   p{
     font-family: Avenir;
+    color:#505151;
   }
 
 footer{
