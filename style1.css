@@ -55,6 +55,18 @@ form{
   color:black;
 }
 
+.sidebar{
+  margin-left: 800px;
+  position: absolute;
+  text-align: justify;
+  font-size: 17px;
+  top: 65px;
+  bottom: 96px;
+  right: 50px;
+  width: 25%;
+  background: rgba(255,255,255,0.5);
+  }
+
 footer{
   clear:both;
   margin-top: 40px;
