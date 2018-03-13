@@ -20,6 +20,12 @@ ol li a{
   text-shadow: 1px 1px 1px #8e8e8e;
 }
 
+li{
+  font-family: Avenir;
+  font-size: 15px;
+  color: #353535;
+}
+
 .nav{
   text-decoration: none;
   float:right;
