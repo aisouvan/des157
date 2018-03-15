@@ -130,6 +130,18 @@ h1 {
 	line-height: 20px;
 }
 
+.sidebar{
+  margin-left: 800px;
+  position: absolute;
+  text-align: justify;
+  font-size: 17px;
+  top: 65px;
+  bottom: 250px;
+  right: 50px;
+  width: 25%;
+  background: rgba(255,255,255,0.5);
+  }
+
 footer {
   clear: both;
   width: 100%;
