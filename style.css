@@ -83,6 +83,15 @@ li {
   color:white;
 }
 
+ul li{
+  color: #fcfcfc;
+  font-family: futura;
+  padding: 5px;
+  line-height: 8px;
+  font-family:futura;
+  color:white;
+}
+
 
 .column {
   float: left;
